@@ -1,5 +1,9 @@
 # Controle de Estoque
 
+> Atualizar pip
+```
+pip install --upgrade pip
+```
 ## Como rodar o projeto?
 
 1. Clone o repositório.
@@ -20,9 +24,12 @@ Windows:
 4. Instale as dependências.
 ```
 pip install -r requirements.txt
+```
+5. Gerar arquivo .env
+```
 python contrib/env_gen.py
 ```
-5. Rode as migrações.
+6. Rode as migrações.
 ```
 python manage.py migrate
 ```
